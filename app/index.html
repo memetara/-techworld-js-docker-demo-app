@@ -44,7 +44,7 @@
 <script>
     (async function init() {
         const response = await fetch('http://localhost:3000/get-profile');
-        console.log("response", response);
+        console.log("responses", response);
         const user = await response.json();
         console.log(JSON.stringify(user));
 
